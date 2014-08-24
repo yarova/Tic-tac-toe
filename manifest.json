@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+
+    "name": "Tic-tac-toe",
+    "version": "1.3",
+
+    "icons": {
+        "128": "./images/icon.png"
+    },
+
+    "browser_action": {
+        "default_title": "Tic-tac-toe",
+        "default_icon": "./images/icon.png",
+        "default_popup": "popup.html"
+    },
+    "permissions": [
+        "tabs"
+    ]
+}
